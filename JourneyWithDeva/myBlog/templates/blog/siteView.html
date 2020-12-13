@@ -1,0 +1,53 @@
+{% extends 'blog/common.html' %}
+
+{% block title%} {{site.site_name}} - JourneyWithDeva{% endblock %}
+{% block body %}
+<div class="container my-4">
+    <div class="row">
+    <div class="col-md-4">
+    <div class="row">
+        <img src="/media/{{site.image}}" width="350px" height="350px">
+    </div>
+
+
+    </div>
+
+    <div class="col-md-8">
+        <h5>{{site.site_name}}</h5>
+        <p>{{site.desc}}</p>
+    </div>
+
+    </div>
+    <br>
+   <div class="row">
+       <div class="col-md-4">
+        <div class="row">
+        <img src="/media/{{site.image2}}" width="350px" height="350px">
+        </div>
+       </div>
+
+       <div class="col-md-4">
+        <div class="row">
+        <img src="/media/{{site.image3}}" width="350px" height="350px">
+        </div>
+       </div>
+
+       <div class="col-md-4">
+        <div class="row">
+        <img src="/media/{{site.image4}}" width="350px" height="350px">
+        </div>
+       </div>
+
+   </div>
+
+</div>
+
+
+
+
+
+{% endblock %}
+
+
+
+
